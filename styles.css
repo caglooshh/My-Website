@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ddbdc6;
+    color: rgb(229, 176, 213);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1bee7;
+    padding: 50px 0;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.post {
+    background-color: white;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.post-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.post-content a {
+    color: #8e44ad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-content a:hover {
+    color: #f39c12;
+}
+
+.footer {
+    text-align: center;
+    background-color: #a36dba;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.blog-text {
+    font-size: 14px;
+    color: #a6549f; /* Gri tonlarında bir yazı */
+    margin-top: 5px;
+}
+
+.footer p {
+    font-size: 1em;
+}
